@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prosjekter — Abebe Bediye</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    .hero{padding:50px 0 60px;border-bottom:1px solid var(--line)}.eyebrow{margin:0 0 15px;color:var(--green);font-size:10px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase}h1,h2,h3,p{margin-top:0}h1{max-width:790px;margin-bottom:20px;font:500 clamp(46px,7vw,76px)/1.02 "Manrope",sans-serif;letter-spacing:-4px}h1 em{color:var(--green);font-family:Georgia,serif;font-weight:400}.intro{max-width:670px;color:var(--muted);font-size:16px}
+    .project-context{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}.project-context a{padding:6px 10px;border-radius:99px;background:#ecefe7;color:var(--green);font-size:10px;font-weight:700}.project-context a:hover{background:#dfe7d8}
+    .project{display:grid;grid-template-columns:240px 1fr;gap:40px;padding:39px 0;border-bottom:1px solid var(--line);scroll-margin-top:20px}.project-meta{color:#858a80;font-size:10px;letter-spacing:.7px}.project-meta strong{display:block;margin:9px 0 4px;color:var(--green);font:700 13px "Manrope",sans-serif;letter-spacing:0}.project-content h2{margin:0 0 12px;font:600 25px/1.2 "Manrope",sans-serif;letter-spacing:-.8px}.project-content p{max-width:720px;margin:0 0 14px;color:#666b63;font-size:13px}.project-content ul{max-width:720px;margin:0 0 17px;padding-left:17px;color:#666b63;font-size:12px}.project-content li{padding:3px 0}.tags{display:flex;flex-wrap:wrap;gap:7px}.tags span{padding:5px 10px;border-radius:99px;background:#ecefe7;color:#5e685d;font-size:10px;font-weight:600}
+    .more{padding:56px 0 80px}.more h2{font:600 28px "Manrope",sans-serif;letter-spacing:-1px}.more-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.more-card{padding:21px;border:1px solid var(--line);border-radius:6px;background:var(--white);scroll-margin-top:20px}.more-card small{color:#858a80;font-size:10px}.more-card h3{margin:7px 0;font:700 16px "Manrope",sans-serif}.more-card p{margin:0;color:var(--muted);font-size:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 36px)}header{height:auto;min-height:70px}nav{gap:12px;font-size:10px}nav a:nth-child(2){display:none}nav .cta{padding:7px 10px}.hero{padding:38px 0 42px}.back-link{margin-bottom:22px}h1{letter-spacing:-2.5px}.project{grid-template-columns:1fr;gap:10px;padding:28px 0}.project-content h2{font-size:22px}.more-grid{grid-template-columns:1fr}.foot{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="brand" href="index.html">ABEBE<span>.</span></a>
+    <nav aria-label="Hovedmeny"><a class="active" href="projects.html">Prosjekter</a><a href="index.html#om">Om meg</a><a href="experience.html">Erfaring</a><a href="education.html">Utdanning</a><a class="cta" href="mailto:abebe.bediye@webstep.no">Ta kontakt ↗</a></nav>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <a class="back-link" href="index.html"><span>←</span> Til forsiden</a>
+      <p class="eyebrow">Utvalgte leveranser · Fra idé til drift</p>
+      <h1>Teknologi med<br><em>tydelig verdi.</em></h1>
+      <p class="intro">Et utvalg arbeid innen skyplattform, AI, DevOps og systemutvikling. Hvert prosjekt kombinerer teknisk kvalitet med forståelse for menneskene og virksomheten som bruker løsningen.</p>
+      <div class="context-links"><a href="experience.html">Se erfaringen bak leveransene <span>→</span></a><a href="education.html">Se utdanningsbakgrunnen <span>→</span></a></div>
+    </section>
+    <article class="project" id="naf">
+      <div class="project-meta">JAN — DES 2026<strong>NAF</strong>Plattformmodernisering</div>
+      <div class="project-content"><h2>Felles plattform og skybasert identitet</h2>
+        <p>NAF moderniserer sin utviklingsplattform og flytter gjenværende on-prem-infrastruktur til Microsoft Azure. Arbeidet inkluderer innføring av GitHub som felles plattform og en overgang til skybasert identitets- og tilgangsstyring.</p>
+        <p><strong>Min rolle:</strong> DevOps-utvikler og første medlem i det nye plattformteamet. Jeg bidro til teamstruktur, overtok ansvar for felles Azure-infrastruktur og koordinerte nye arbeidsflyter med utviklingsteamene.</p>
+        <ul><li>Importerte eksisterende Azure-ressurser til Terraform for versjonskontrollert forvaltning.</li><li>Migrerte identitetsobjekter til Microsoft Entra ID og etablerte HR-synkronisering.</li><li>Automatiserte livssyklus- og tilgangshåndtering med Lifecycle Workflows, Entitlement Management og Logic Apps.</li><li>Bidro med teknisk støtte, GitHub-arbeidsflyt og e-postagenter for juridisk avdeling.</li></ul>
+        <div class="tags"><span>Azure</span><span>Terraform</span><span>Entra ID</span><span>GitHub Actions</span><span>Logic Apps</span></div><div class="project-context"><a href="experience.html#naf">Relatert erfaring: Webstep ↗</a></div>
+      </div>
+    </article>
+    <article class="project" id="semantic-search">
+      <div class="project-meta">JAN — MAR 2026<strong>WEBSTEP</strong>AI · Søk</div>
+      <div class="project-content"><h2>Semantisk søk som ivaretar tilgang</h2>
+        <p>Et internt søkeverktøy for Google Sites og Drive som lar ansatte stille spørsmål i naturlig språk. RAG-arkitekturen bruker Vertex AI Search og respekterer rettighetene i kildene, slik at brukere kun får svar fra informasjon de har tilgang til.</p>
+        <p><strong>Min rolle:</strong> Tech Lead og utvikler med ansvar for teamets tekniske retning, prioritering av proof-of-concept-arbeid og arkitektur og implementering av løsningen.</p>
+        <ul><li>Bygget GitHub-basert utviklerplattform med prosjektstyring, deployløp og pakkehåndtering.</li><li>Skriptet infrastruktur for repeterbare miljøer.</li><li>Veiledet teamet og la til rette for eksperimentering og kunnskapsdeling.</li></ul>
+        <div class="tags"><span>RAG</span><span>Google Vertex AI Search</span><span>Google Workspace</span><span>GitHub</span><span>Tech Lead</span></div><div class="project-context"><a href="experience.html#semantic-search">Relatert erfaring: Webstep ↗</a></div>
+      </div>
+    </article>
+    <article class="project" id="lumera">
+      <div class="project-meta">SEP 2024 — DES 2025<strong>LUMERA NORGE</strong>DevOps · Forsikring</div>
+      <div class="project-content"><h2>Mer forutsigbare forsikringsplattformer</h2>
+        <p>Forvaltning og videreutvikling av Azure Kubernetes Service for en modulær livs- og pensjonsforsikringsplattform i et strengt regulert marked.</p>
+        <p><strong>Min rolle:</strong> DevOps Engineer med ansvar for oppetid, skalerbarhet, plattformarkitektur, observability og pålitelige leveranser.</p>
+        <ul><li>Refaktorerte Terraform-moduler og standardiserte IaC, med 100 % miljøkonsistens og raskere provisjonering.</li><li>Utviklet et Next.js-dashboard som samlet release-status fra åtte miljøer og synliggjorde versjoner og avhengigheter.</li><li>Redesignet GitLab CI/CD-pipelines for modulære plattformkomponenter.</li><li>Etablerte observability med OpenTelemetry og Azure-verktøy for raskere feilsøking.</li></ul>
+        <div class="tags"><span>Azure</span><span>AKS</span><span>Terraform</span><span>GitLab CI/CD</span><span>Next.js</span><span>OpenTelemetry</span></div><div class="project-context"><a href="experience.html#lumera">Relatert erfaring: Webstep ↗</a></div>
+      </div>
+    </article>
+    <article class="project" id="ng-floyt">
+      <div class="project-meta">SEP 2022 — JUL 2024<strong>NORGESGRUPPEN DATA</strong>Fullstack · Logistikk</div>
+      <div class="project-content"><h2>Utvikling av et forretningskritisk verdikjedesystem</h2>
+        <p>NG-Fløyt støtter NorgesGruppens verdikjede fra beholdningskontroll i butikk til håndtering og fakturering av bestillinger fra eksterne leverandører.</p>
+        <p><strong>Min rolle:</strong> Fullstack-utvikler med fokus på robust Java/Spring-backend, Oracle-database og videreutvikling av systemet. Bidro også til drift i privat sky med Kubernetes og Docker og veiledning av nye medarbeidere.</p>
+        <div class="tags"><span>Java</span><span>Spring</span><span>Oracle</span><span>React</span><span>Kubernetes</span><span>Docker</span></div><div class="project-context"><a href="experience.html#norgesgruppen">Relatert erfaring: NorgesGruppen Data ↗</a></div>
+      </div>
+    </article>
+    <section class="more">
+      <h2>Flere prosjekter</h2>
+      <div class="more-grid">
+        <article class="more-card" id="stamdata"><small>AUG 2021 — SEP 2022 · NORDIC TRUSTEE</small><h3>Stamdata · Dataflyt og tech lead</h3><p>Kvalitetssikret ETL-dataflyt til kunder og fungerte som interim tech lead, koordinerte arbeid mellom utvikling, drift og eksterne interessenter.</p><div class="project-context"><a href="experience.html#stamdata">Relatert erfaring ↗</a></div></article>
+        <article class="more-card" id="efirds"><small>MAI 2021 — AUG 2022 · NORDIC TRUSTEE</small><h3>eFIRDS · Europeisk finansdata</h3><p>Ansvar for prosjektinfrastruktur, proof of concept for Azure B2C og kvalitetssikring av drift for Nordic Trustees EU-rettede produkt.</p><div class="project-context"><a href="experience.html#efirds">Relatert erfaring ↗</a></div></article>
+        <article class="more-card" id="tillit"><small>DES 2019 — JAN 2022 · NORDIC TRUSTEE</small><h3>Tillit 2.0 · Modernisering</h3><p>Utformet Azure-infrastruktur med Terraform og Pulumi, forbedret CI/CD og bidro til migrering av forretningskritisk funksjonalitet til .NET Core og React.</p><div class="project-context"><a href="experience.html#tillit">Relatert erfaring ↗</a></div></article>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap foot"><span>© 2026 Abebe Bediye</span><nav><a href="index.html">Hjem</a><a href="experience.html">Erfaring</a><a href="education.html">Utdanning</a><a href="mailto:abebe.bediye@webstep.no">Kontakt</a></nav></div></footer>
+</body>
+</html>
