@@ -60,6 +60,6 @@ test("shared styles are loaded by every page", () => {
   assert.ok(readdirSync(root).includes("styles.css"));
 });
 
-test("GitHub Pages is configured for the www custom domain", () => {
-  assert.equal(readFileSync(path.join(root, "CNAME"), "utf8").trim(), "www.abebediye.no");
+test("GitHub Pages is configured for the apex custom domain", () => {
+  assert.equal(readFileSync(path.join(root, "CNAME"), "utf8").trim(), "abebediye.no");
 });
