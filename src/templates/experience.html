@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <title>{{meta.experience.title}}</title>
+  <meta name="description" content="{{meta.experience.description}}">
+{{> head}}
+  <link href="{{root}}subpage.css" rel="stylesheet">
+  <style>
+    main{padding-bottom:85px}.section{padding:56px 0 20px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:27px}.section-head h2{margin:0;font:600 29px/1.2 "Manrope",sans-serif;letter-spacing:-1px}.section-note{max-width:400px;margin:0;color:var(--muted);font-size:12px}
+    .job{display:grid;grid-template-columns:210px 1fr;gap:35px;padding:27px 0;border-top:1px solid var(--line)}.job-date{color:#858a80;font-size:11px;letter-spacing:.5px}.job-company{margin:0 0 5px;font:700 19px "Manrope",sans-serif}.job-title{margin:0 0 15px;color:var(--green);font-size:12px;font-weight:600}.job p{max-width:720px;margin:0 0 12px;color:#666b63;font-size:13px}.job ul{max-width:720px;margin:0;padding-left:17px;color:#666b63;font-size:12px}.job li{padding:3px 0}
+    .project-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}.project-links a{padding:6px 10px;border-radius:99px;background:#ecefe7;color:var(--green);font-size:10px;font-weight:700}
+    .older{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.older article{padding:20px;border:1px solid var(--line);border-radius:6px;background:var(--white)}.older small{color:#858a80;font-size:10px}.older h3{margin:8px 0 4px;font:700 15px "Manrope",sans-serif}.older p{margin:0;color:var(--muted);font-size:11px}
+    @media(max-width:650px){.section-head{display:block}.section-note{margin-top:10px}.job{grid-template-columns:1fr;gap:8px;padding:22px 0}.older{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+{{> subpage-header}}
+  <main class="wrap">
+    <section class="hero">
+      {{> back-link}}
+      <p class="eyebrow">{{exp.eyebrow}}</p>
+      <h1>{{exp.title}}</h1>
+      <p class="intro">{{exp.intro}}</p>
+      <div class="context-links"><a href="projects.html">{{exp.links.projects}} <span>→</span></a><a href="education.html">{{exp.links.education}} <span>→</span></a></div>
+    </section>
+    <section class="section" id="webstep">
+      <div class="section-head"><h2>Webstep</h2><p class="section-note">{{exp.webstep.note}}</p></div>
+      <article class="job" id="naf">
+        <div class="job-date">{{month.jan}} 2026 — {{month.dec}} 2026</div>
+        <div><h3 class="job-company">{{exp.naf.company}}</h3><p class="job-title">{{exp.naf.role}}</p>
+          <p>{{exp.naf.text}}</p>
+          <ul><li>{{exp.naf.b1}}</li><li>{{exp.naf.b2}}</li><li>{{exp.naf.b3}}</li><li>{{exp.naf.b4}}</li></ul>
+          <div class="project-links"><a href="projects.html#naf">{{exp.more}} ↗</a><a>Azure</a><a>Terraform</a><a>Entra ID</a><a>GitHub</a></div>
+        </div>
+      </article>
+      <article class="job" id="semantic-search">
+        <div class="job-date">{{month.jan}} 2026 — {{month.mar}} 2026</div>
+        <div><h3 class="job-company">Webstep Semantic Search AI</h3><p class="job-title">{{exp.search.role}}</p>
+          <p>{{exp.search.text}}</p>
+          <ul><li>{{exp.search.b1}}</li><li>{{exp.search.b2}}</li><li>{{exp.search.b3}}</li></ul>
+          <div class="project-links"><a href="projects.html#semantic-search">{{exp.more}} ↗</a><a>RAG</a><a>Google Vertex AI</a><a>Tech Lead</a></div>
+        </div>
+      </article>
+      <article class="job" id="lumera">
+        <div class="job-date">{{month.sep}} 2024 — {{month.dec}} 2025</div>
+        <div><h3 class="job-company">Lumera Norge</h3><p class="job-title">DevOps Engineer</p>
+          <p>{{exp.lumera.text}}</p>
+          <ul><li>{{exp.lumera.b1}}</li><li>{{exp.lumera.b2}}</li><li>{{exp.lumera.b3}}</li><li>{{exp.lumera.b4}}</li></ul>
+          <div class="project-links"><a href="projects.html#lumera">{{exp.more}} ↗</a><a>AKS</a><a>Terraform</a><a>OpenTelemetry</a><a>Next.js</a></div>
+        </div>
+      </article>
+      <article class="job" id="norgesgruppen">
+        <div class="job-date">{{month.sep}} 2022 — {{month.jul}} 2024</div>
+        <div><h3 class="job-company">NorgesGruppen Data · NG-Fløyt</h3><p class="job-title">{{exp.ng.role}}</p>
+          <p>{{exp.ng.text}}</p>
+          <ul><li>{{exp.ng.b1}}</li><li>{{exp.ng.b2}}</li><li>{{exp.ng.b3}}</li></ul>
+          <div class="project-links"><a href="projects.html#ng-floyt">{{exp.more}} ↗</a><a>Java</a><a>Spring</a><a>Oracle</a><a>Kubernetes</a></div>
+        </div>
+      </article>
+    </section>
+    <section class="section" id="nordic-trustee">
+      <div class="section-head"><h2>Nordic Trustee</h2><p class="section-note">{{exp.nordic.note}}</p></div>
+      <article class="job" id="stamdata">
+        <div class="job-date">{{month.aug}} 2021 — {{month.sep}} 2022</div>
+        <div><h3 class="job-company">Stamdata</h3><p class="job-title">{{exp.stamdata.role}}</p><p>{{exp.stamdata.text}}</p><div class="project-links"><a href="projects.html#stamdata">{{exp.more}} ↗</a><a>.NET</a><a>Azure</a><a>ETL</a></div></div>
+      </article>
+      <article class="job" id="efirds">
+        <div class="job-date">{{month.may}} 2021 — {{month.aug}} 2022</div>
+        <div><h3 class="job-company">eFIRDS</h3><p class="job-title">{{exp.efirds.role}}</p><p>{{exp.efirds.text}}</p><div class="project-links"><a href="projects.html#efirds">{{exp.more}} ↗</a><a>Azure</a><a>Terraform</a><a>CI/CD</a></div></div>
+      </article>
+      <article class="job" id="tillit">
+        <div class="job-date">{{month.dec}} 2019 — {{month.jan}} 2022</div>
+        <div><h3 class="job-company">Tillit 2.0</h3><p class="job-title">{{exp.tillit.role}}</p><p>{{exp.tillit.text}}</p><div class="project-links"><a href="projects.html#tillit">{{exp.more}} ↗</a><a>Azure</a><a>.NET Core</a><a>React</a><a>Terraform</a></div></div>
+      </article>
+    </section>
+    <section class="section">
+      <div class="section-head" id="tidligere"><h2>{{exp.older.title}}</h2><p class="section-note">{{exp.older.note}}</p></div>
+      <div class="older">
+        <article><small>{{month.aug}} 2019 — {{month.nov}} 2019</small><h3>Transport Data System</h3><p>{{exp.older.tds}}</p></article>
+        <article><small>{{month.jul}} 2017 — {{month.aug}} 2019</small><h3>People4you IT Bemanning</h3><p>{{exp.older.p4y}}</p></article>
+        <article><small>{{month.aug}} 2018 — {{month.jun}} 2019</small><h3>OsloMet</h3><p>{{exp.older.ta}}</p></article>
+        <article><small>{{month.jan}} 2017 — {{month.jul}} 2018</small><h3>OsloMet</h3><p>{{exp.older.itAssistant}}</p></article>
+        <article><small>{{month.aug}} 2010 — {{month.aug}} 2013</small><h3>{{exp.older.forcesName}}</h3><p>{{exp.older.forcesRole}}</p></article>
+      </div>
+    </section>
+  </main>
+{{> subpage-footer}}
+</body>
+</html>

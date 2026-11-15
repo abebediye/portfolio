@@ -1,0 +1,247 @@
+{
+  "month": {
+    "jan": "JAN", "feb": "FEB", "mar": "MAR", "apr": "APR", "may": "MAY", "jun": "JUN",
+    "jul": "JUL", "aug": "AUG", "sep": "SEP", "oct": "OCT", "nov": "NOV", "dec": "DEC"
+  },
+  "date": { "present": "PRESENT" },
+  "nav": {
+    "aria": "Main menu",
+    "projects": "Projects",
+    "about": "About me",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Get in touch",
+    "home": "Home"
+  },
+  "footer": { "contact": "Contact" },
+  "switch": { "label": "NO", "title": "Les denne siden på norsk" },
+  "common": { "back": "Back to home" },
+  "meta": {
+    "index": {
+      "title": "Abebe Bediye — Portfolio",
+      "description": "Abebe Bediye is a senior consultant in cloud, DevOps and AI based in Oslo. Selected projects, experience and education."
+    },
+    "experience": {
+      "title": "Experience — Abebe Bediye",
+      "description": "Over seven years of experience in development, cloud architecture and DevOps at Webstep, Nordic Trustee and more."
+    },
+    "education": {
+      "title": "Education — Abebe Bediye",
+      "description": "Bachelor's in computer engineering from OsloMet and an M.Sc. in engineering cybernetics from NTNU."
+    },
+    "projects": {
+      "title": "Projects — Abebe Bediye",
+      "description": "Selected projects in cloud platforms, AI, DevOps and software development."
+    }
+  },
+  "home": {
+    "eyebrow": "Senior consultant · Oslo, Norway",
+    "title": "Hi, I'm<br>Abebe <em>Bediye.</em>",
+    "copy": "I build secure, scalable platforms and help teams take new technology from idea to reliable solution. Cloud, DevOps and AI — with people at the centre.",
+    "cta": { "projects": "See selected projects", "experience": "My experience" },
+    "note": "Tech lead · Architect · Developer",
+    "imageAlt": "A potato topped with a tall stack of different hats.",
+    "proof": {
+      "label": "Expertise built on complex, business-critical solutions",
+      "years": "years of experience",
+      "aiCloud": "AI + cloud",
+      "aiCloudNote": "from architecture to production",
+      "leadNote": "direction, quality and collaboration"
+    },
+    "projects": {
+      "eyebrow": "Selected work",
+      "title": "Work that makes<br>a difference.",
+      "intro": "From platform modernisation to AI solutions with access control — practical technology with clear value.",
+      "view": "View project",
+      "naf": {
+        "category": "CLOUD PLATFORM",
+        "title": "A safer path to the cloud",
+        "text": "Helped establish a new platform team, standardise Azure infrastructure and automate identity and access management."
+      },
+      "search": {
+        "category": "AI & SEARCH",
+        "title": "Search that understands the question",
+        "text": "Led the development of a semantic search using RAG and Vertex AI — designed so answers respect the access rights in the source data."
+      },
+      "lumera": {
+        "title": "Stable operations, faster delivery",
+        "text": "Standardised Terraform modules and improved observability and release flow for critical insurance systems in Azure."
+      }
+    },
+    "about": {
+      "eyebrow": "About me",
+      "title": "Technical depth.<br>A human<br>approach.",
+      "p1": "I'm a hands-on senior consultant and solution architect with <strong>over seven years of experience</strong> in software development, cloud architecture and DevOps for business-critical solutions.",
+      "p2": "I thrive where development, platform and new AI opportunities meet. As a technical anchor in cross-functional teams, I turn business needs into scalable architecture — and help the people around me succeed.",
+      "p3": "To me, good technology isn't just about what we build, but about the solution being safe, understandable and useful in everyday life.",
+      "link": "Get to know my experience"
+    },
+    "career": {
+      "eyebrow": "Career",
+      "webstep": "Senior consultant · Cloud, DevOps & AI",
+      "nordic": "Systems developer · Tech Lead · DevOps",
+      "earlierLabel": "EARLIER EXPERIENCE",
+      "earlierTitle": "Development, teaching and IT",
+      "earlierRole": "Transport Data System · OsloMet · Norwegian Armed Forces",
+      "all": "See full experience",
+      "degree1": "Computer engineering · OsloMet",
+      "degree2": "Engineering cybernetics · NTNU"
+    },
+    "skills": {
+      "eyebrow": "Toolbox",
+      "title": "Skills",
+      "cloud": "Cloud & DevOps",
+      "ai": "AI & data",
+      "dev": "Development",
+      "lead": "Leadership & collaboration",
+      "architecture": "Solution architecture",
+      "agile": "Agile",
+      "languages": "Norwegian · English"
+    },
+    "contact": {
+      "eyebrow": "Next step",
+      "title": "Have a challenge<br>we can solve together?",
+      "cta": "Let's talk"
+    },
+    "footer": "© 2026 Abebe Bediye · Made with curiosity and good craftsmanship."
+  },
+  "exp": {
+    "eyebrow": "Career · From code to technical leadership",
+    "title": "Experience building<br><em>what lasts.</em>",
+    "intro": "Over seven years of experience in development, cloud architecture and DevOps for business-critical solutions. I combine hands-on development with platform ownership, technical direction and knowledge sharing.",
+    "links": { "projects": "See my projects", "education": "See my education" },
+    "more": "View project details",
+    "webstep": { "note": "Senior consultant · September 2022 – present" },
+    "naf": {
+      "company": "NAF — Norwegian Automobile Federation",
+      "role": "DevOps developer · Platform modernisation",
+      "text": "Helping move remaining on-prem resources to Azure and introduce GitHub as the shared development platform. As the first member of the new platform team, I have contributed team structure, shared infrastructure and new development practices.",
+      "b1": "Imported existing Azure resources into Terraform and version-controlled infrastructure.",
+      "b2": "Migrated from Azure AD objects to cloud-based Microsoft Entra ID.",
+      "b3": "Automated employee and access management with Lifecycle Workflows, Entitlement Management and Logic Apps.",
+      "b4": "Technical support for the teams, including building email agents for the legal department."
+    },
+    "search": {
+      "role": "Tech Lead / developer",
+      "text": "Led the team's exploration and development of semantic search over internal Google Sites and Drive data. Designed a RAG solution with Vertex AI Search that preserves existing access control.",
+      "b1": "Set technical direction and prioritised proof-of-concept work towards concrete business value.",
+      "b2": "Built a developer platform in GitHub with project structure, automated deployment pipelines and repeatable environments.",
+      "b3": "Mentored the team and contributed to sharing and lasting AI competence."
+    },
+    "lumera": {
+      "text": "Managed and further developed Azure Kubernetes Service for business-critical life and pension insurance systems in a regulated market.",
+      "b1": "Refactored Terraform modules and standardised infrastructure as code; achieved 100% environment consistency.",
+      "b2": "Built a Next.js release dashboard that gathered version status from eight environments.",
+      "b3": "Improved GitLab CI/CD pipelines and established observability with OpenTelemetry and Azure tooling.",
+      "b4": "The dashboard gave an overview of release status and dependencies and helped reduce faulty deployments."
+    },
+    "ng": {
+      "role": "Full-stack developer",
+      "text": "Maintained and further developed a business-critical system supporting NorgesGruppen's value chain — from in-store inventory control to handling and invoicing supplier orders.",
+      "b1": "Built backend logic in Java/Spring and database functionality in Oracle.",
+      "b2": "Worked on private cloud solutions based on Kubernetes and Docker.",
+      "b3": "Contributed to testing, data integrity and mentoring new colleagues."
+    },
+    "nordic": { "note": "Systems developer · December 2019 – August 2022" },
+    "stamdata": {
+      "role": "Systems developer · Interim Tech Lead",
+      "text": "Maintained and quality-assured ETL-based data flows from external vendors to customers. Acted as interim Tech Lead responsible for stable operations, coordination and dialogue between development, operations, customers and other stakeholders."
+    },
+    "efirds": {
+      "role": "DevOps Engineer · Tech Lead",
+      "text": "Responsible for project infrastructure and quality assurance of product operations. Implemented a proof of concept for Azure B2C to handle external customers."
+    },
+    "tillit": {
+      "role": "DevOps Engineer · Full-stack developer",
+      "text": "Part of a team of two that designed and implemented the Azure infrastructure for modernising Nordic Trustee's core system. Also contributed .NET Core and React functionality, IaC and improvements to delivery pipelines."
+    },
+    "older": {
+      "title": "Earlier experience",
+      "note": "Development, teaching and IT support",
+      "tds": "Junior Android developer",
+      "p4y": "IT consultant",
+      "ta": "Teaching assistant",
+      "itAssistant": "IT assistant · P84 Educationsenter",
+      "forcesName": "Norwegian Armed Forces",
+      "forcesRole": "Specialist"
+    }
+  },
+  "edu": {
+    "eyebrow": "Education · Academic foundation",
+    "title": "Curiosity,<br><em>from theory to practice.</em>",
+    "intro": "An interdisciplinary education in technology and science, combined with continuous learning through development, architecture and technical leadership.",
+    "osloMet": {
+      "degree": "Computer engineering",
+      "school": "OsloMet – Oslo Metropolitan University",
+      "text": "Engineering education providing a foundation for work in software development and technology."
+    },
+    "ntnu": {
+      "degree": "Master of Science — engineering cybernetics",
+      "school": "NTNU – Norwegian University of Science and Technology",
+      "text": "Studies in engineering cybernetics, a field that connects technology, systems and control."
+    },
+    "bjorknes": { "degree": "University admission certification with a focus on science" },
+    "languages": { "title": "Languages", "text": "English · Native &nbsp;&nbsp; Norwegian · Native" },
+    "next": {
+      "text": "Want to see how the education is applied in practice?",
+      "projects": "Explore the projects",
+      "experience": "See the work experience"
+    }
+  },
+  "proj": {
+    "eyebrow": "Selected deliveries · From idea to operation",
+    "title": "Technology with<br><em>clear value.</em>",
+    "intro": "A selection of work in cloud platforms, AI, DevOps and software development. Each project combines technical quality with an understanding of the people and the business using the solution.",
+    "links": { "experience": "See the experience behind the deliveries", "education": "See my education" },
+    "role": "My role:",
+    "related": "Related experience",
+    "naf": {
+      "category": "Platform modernisation",
+      "title": "Shared platform and cloud-based identity",
+      "text": "NAF is modernising its development platform and moving remaining on-prem infrastructure to Microsoft Azure. The work includes introducing GitHub as the shared platform and moving to cloud-based identity and access management.",
+      "role": "DevOps developer and first member of the new platform team. I contributed to the team structure, took ownership of shared Azure infrastructure and coordinated new workflows with the development teams.",
+      "b1": "Imported existing Azure resources into Terraform for version-controlled management.",
+      "b2": "Migrated identity objects to Microsoft Entra ID and set up HR synchronisation.",
+      "b3": "Automated lifecycle and access management with Lifecycle Workflows, Entitlement Management and Logic Apps.",
+      "b4": "Provided technical support, GitHub workflow guidance and email agents for the legal department."
+    },
+    "search": {
+      "category": "AI · Search",
+      "title": "Semantic search that respects access",
+      "text": "An internal search tool for Google Sites and Drive that lets employees ask questions in natural language. The RAG architecture uses Vertex AI Search and respects the permissions in the sources, so users only get answers from information they have access to.",
+      "role": "Tech Lead and developer responsible for the team's technical direction, prioritising proof-of-concept work, and the architecture and implementation of the solution.",
+      "b1": "Built a GitHub-based developer platform with project management, deployment pipelines and package management.",
+      "b2": "Scripted infrastructure for repeatable environments.",
+      "b3": "Mentored the team and made room for experimentation and knowledge sharing."
+    },
+    "lumera": {
+      "category": "DevOps · Insurance",
+      "title": "More predictable insurance platforms",
+      "text": "Management and further development of Azure Kubernetes Service for a modular life and pension insurance platform in a strictly regulated market.",
+      "role": "DevOps Engineer responsible for uptime, scalability, platform architecture, observability and reliable deliveries.",
+      "b1": "Refactored Terraform modules and standardised IaC, with 100% environment consistency and faster provisioning.",
+      "b2": "Built a Next.js dashboard that gathered release status from eight environments and made versions and dependencies visible.",
+      "b3": "Redesigned GitLab CI/CD pipelines for modular platform components.",
+      "b4": "Established observability with OpenTelemetry and Azure tooling for faster troubleshooting."
+    },
+    "ng": {
+      "category": "Full-stack · Logistics",
+      "title": "Developing a business-critical value chain system",
+      "text": "NG-Fløyt supports NorgesGruppen's value chain from in-store inventory control to handling and invoicing orders from external suppliers.",
+      "role": "Full-stack developer focused on a robust Java/Spring backend, the Oracle database and further development of the system. Also contributed to private cloud operations with Kubernetes and Docker and to mentoring new colleagues."
+    },
+    "more": { "title": "More projects" },
+    "stamdata": {
+      "title": "Stamdata · Data flow and tech lead",
+      "text": "Quality-assured ETL data flows to customers and acted as interim tech lead, coordinating work between development, operations and external stakeholders."
+    },
+    "efirds": {
+      "title": "eFIRDS · European financial data",
+      "text": "Responsible for project infrastructure, a proof of concept for Azure B2C and quality assurance of operations for Nordic Trustee's EU-facing product."
+    },
+    "tillit": {
+      "title": "Tillit 2.0 · Modernisation",
+      "text": "Designed Azure infrastructure with Terraform and Pulumi, improved CI/CD and helped migrate business-critical functionality to .NET Core and React."
+    }
+  }
+}
