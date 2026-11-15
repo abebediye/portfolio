@@ -4,7 +4,7 @@
   "description": "Bilingual CV portfolio built from one template set and one translation file per language",
   "scripts": {
     "build": "node build.js",
-    "test": "node --test \"tests/*.test.js\"",
+    "test": "node --test",
     "serve": "npm run build && python3 -m http.server 4173 --directory dist --bind 127.0.0.1"
   },
   "engines": {
