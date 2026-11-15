@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <title>{{meta.projects.title}}</title>
+  <meta name="description" content="{{meta.projects.description}}">
+{{> head}}
+  <link href="{{root}}subpage.css" rel="stylesheet">
+  <style>
+    .project-context{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}.project-context a{padding:6px 10px;border-radius:99px;background:#ecefe7;color:var(--green);font-size:10px;font-weight:700}.project-context a:hover{background:#dfe7d8}
+    .project{display:grid;grid-template-columns:240px 1fr;gap:40px;padding:39px 0;border-bottom:1px solid var(--line);scroll-margin-top:20px}.project-meta{color:#858a80;font-size:10px;letter-spacing:.7px}.project-meta strong{display:block;margin:9px 0 4px;color:var(--green);font:700 13px "Manrope",sans-serif;letter-spacing:0}.project-content h2{margin:0 0 12px;font:600 25px/1.2 "Manrope",sans-serif;letter-spacing:-.8px}.project-content p{max-width:720px;margin:0 0 14px;color:#666b63;font-size:13px}.project-content ul{max-width:720px;margin:0 0 17px;padding-left:17px;color:#666b63;font-size:12px}.project-content li{padding:3px 0}
+    .more{padding:56px 0 80px}.more h2{font:600 28px "Manrope",sans-serif;letter-spacing:-1px}.more-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.more-card{padding:21px;border:1px solid var(--line);border-radius:6px;background:var(--white);scroll-margin-top:20px}.more-card small{color:#858a80;font-size:10px}.more-card h3{margin:7px 0;font:700 16px "Manrope",sans-serif}.more-card p{margin:0;color:var(--muted);font-size:12px}
+    @media(max-width:650px){.project{grid-template-columns:1fr;gap:10px;padding:28px 0}.project-content h2{font-size:22px}.more-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+{{> subpage-header}}
+  <main class="wrap">
+    <section class="hero">
+      {{> back-link}}
+      <p class="eyebrow">{{proj.eyebrow}}</p>
+      <h1>{{proj.title}}</h1>
+      <p class="intro">{{proj.intro}}</p>
+      <div class="context-links"><a href="experience.html">{{proj.links.experience}} <span>→</span></a><a href="education.html">{{proj.links.education}} <span>→</span></a></div>
+    </section>
+    <article class="project" id="naf">
+      <div class="project-meta">{{month.jan}} — {{month.dec}} 2026<strong>NAF</strong>{{proj.naf.category}}</div>
+      <div class="project-content"><h2>{{proj.naf.title}}</h2>
+        <p>{{proj.naf.text}}</p>
+        <p><strong>{{proj.role}}</strong> {{proj.naf.role}}</p>
+        <ul><li>{{proj.naf.b1}}</li><li>{{proj.naf.b2}}</li><li>{{proj.naf.b3}}</li><li>{{proj.naf.b4}}</li></ul>
+        <div class="tags"><span>Azure</span><span>Terraform</span><span>Entra ID</span><span>GitHub Actions</span><span>Logic Apps</span></div><div class="project-context"><a href="experience.html#naf">{{proj.related}}: Webstep ↗</a></div>
+      </div>
+    </article>
+    <article class="project" id="semantic-search">
+      <div class="project-meta">{{month.jan}} — {{month.mar}} 2026<strong>WEBSTEP</strong>{{proj.search.category}}</div>
+      <div class="project-content"><h2>{{proj.search.title}}</h2>
+        <p>{{proj.search.text}}</p>
+        <p><strong>{{proj.role}}</strong> {{proj.search.role}}</p>
+        <ul><li>{{proj.search.b1}}</li><li>{{proj.search.b2}}</li><li>{{proj.search.b3}}</li></ul>
+        <div class="tags"><span>RAG</span><span>Google Vertex AI Search</span><span>Google Workspace</span><span>GitHub</span><span>Tech Lead</span></div><div class="project-context"><a href="experience.html#semantic-search">{{proj.related}}: Webstep ↗</a></div>
+      </div>
+    </article>
+    <article class="project" id="lumera">
+      <div class="project-meta">{{month.sep}} 2024 — {{month.dec}} 2025<strong>LUMERA NORGE</strong>{{proj.lumera.category}}</div>
+      <div class="project-content"><h2>{{proj.lumera.title}}</h2>
+        <p>{{proj.lumera.text}}</p>
+        <p><strong>{{proj.role}}</strong> {{proj.lumera.role}}</p>
+        <ul><li>{{proj.lumera.b1}}</li><li>{{proj.lumera.b2}}</li><li>{{proj.lumera.b3}}</li><li>{{proj.lumera.b4}}</li></ul>
+        <div class="tags"><span>Azure</span><span>AKS</span><span>Terraform</span><span>GitLab CI/CD</span><span>Next.js</span><span>OpenTelemetry</span></div><div class="project-context"><a href="experience.html#lumera">{{proj.related}}: Webstep ↗</a></div>
+      </div>
+    </article>
+    <article class="project" id="ng-floyt">
+      <div class="project-meta">{{month.sep}} 2022 — {{month.jul}} 2024<strong>NORGESGRUPPEN DATA</strong>{{proj.ng.category}}</div>
+      <div class="project-content"><h2>{{proj.ng.title}}</h2>
+        <p>{{proj.ng.text}}</p>
+        <p><strong>{{proj.role}}</strong> {{proj.ng.role}}</p>
+        <div class="tags"><span>Java</span><span>Spring</span><span>Oracle</span><span>React</span><span>Kubernetes</span><span>Docker</span></div><div class="project-context"><a href="experience.html#norgesgruppen">{{proj.related}}: NorgesGruppen Data ↗</a></div>
+      </div>
+    </article>
+    <section class="more">
+      <h2>{{proj.more.title}}</h2>
+      <div class="more-grid">
+        <article class="more-card" id="stamdata"><small>{{month.aug}} 2021 — {{month.sep}} 2022 · NORDIC TRUSTEE</small><h3>{{proj.stamdata.title}}</h3><p>{{proj.stamdata.text}}</p><div class="project-context"><a href="experience.html#stamdata">{{proj.related}} ↗</a></div></article>
+        <article class="more-card" id="efirds"><small>{{month.may}} 2021 — {{month.aug}} 2022 · NORDIC TRUSTEE</small><h3>{{proj.efirds.title}}</h3><p>{{proj.efirds.text}}</p><div class="project-context"><a href="experience.html#efirds">{{proj.related}} ↗</a></div></article>
+        <article class="more-card" id="tillit"><small>{{month.dec}} 2019 — {{month.jan}} 2022 · NORDIC TRUSTEE</small><h3>{{proj.tillit.title}}</h3><p>{{proj.tillit.text}}</p><div class="project-context"><a href="experience.html#tillit">{{proj.related}} ↗</a></div></article>
+      </div>
+    </section>
+  </main>
+{{> subpage-footer}}
+</body>
+</html>
