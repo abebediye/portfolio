@@ -79,7 +79,6 @@
     .button.secondary:hover { border-color: var(--green); color: var(--green); }
     .button.download { margin-left: auto; background: var(--lime); border-color: var(--lime); color: var(--ink); }
     .button.download:hover { background: #e0ecc1; color: var(--ink); }
-    .arrow { margin-left: 12px; font-size: 16px; }
     .hero-note { display: flex; align-items: center; gap: 8px; margin-top: 34px; color: #75796f; font-size: 12px; }
     .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #82a36c; box-shadow: 0 0 0 4px #e6ecdc; }
 
@@ -243,7 +242,7 @@
       <a href="experience.html">{{nav.experience}}</a>
       <a href="education.html">{{nav.education}}</a>
       <a class="lang-switch" href="{{altHref}}" hreflang="{{altLang}}" lang="{{altLang}}" title="{{switch.title}}">{{switch.label}}</a>
-      <a class="nav-cta" href="#kontakt">{{nav.contact}} <span class="arrow">↗</span></a>
+      <a class="nav-cta" href="#kontakt">{{nav.contact}}</a>
     </nav>
   </header>
 
@@ -256,7 +255,7 @@
         <div class="hero-actions">
           <a class="button" href="#prosjekter">{{home.cta.projects}}</a>
           <a class="button secondary" href="experience.html">{{home.cta.experience}}</a>
-          <a class="button download" href="{{root}}assets/Abebe-Bediye-CV.pdf" download>{{home.cta.download}} <span class="arrow">↓</span></a>
+          <a class="button download" href="{{root}}assets/Abebe-Bediye-CV.pdf" download>{{home.cta.download}}</a>
         </div>
         <div class="hero-note"><span class="status-dot"></span> {{home.note}}</div>
       </div>
@@ -351,7 +350,7 @@
     <section class="contact" id="kontakt">
       <div class="wrap contact-inner">
         <div><p class="eyebrow">{{home.contact.eyebrow}}</p><h2>{{home.contact.title}}</h2></div>
-        <a class="button" href="mailto:abebe.bediye@webstep.no">{{home.contact.cta}} <span class="arrow">↗</span></a>
+        <a class="button" href="mailto:abebe.bediye@webstep.no">{{home.contact.cta}}</a>
       </div>
     </section>
   </main>
