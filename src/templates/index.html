@@ -12,11 +12,6 @@
       justify-content: space-between;
       border-bottom: 1px solid rgba(32, 35, 31, .09);
     }
-    .brand {
-      font: 800 17px/1 "Manrope", sans-serif;
-      letter-spacing: -.7px;
-    }
-    .brand span { color: var(--green); }
     .nav-links { display: flex; align-items: center; gap: 34px; font-size: 13px; font-weight: 600; }
     .nav-links a:not(.nav-cta) { color: #555b53; }
     .nav-links a:not(.nav-cta):hover { color: var(--green); }
@@ -82,6 +77,8 @@
     .button:hover { background: var(--green-dark); }
     .button.secondary { background: transparent; color: var(--ink); border-color: #d2d3cb; }
     .button.secondary:hover { border-color: var(--green); color: var(--green); }
+    .button.download { margin-left: auto; background: var(--lime); border-color: var(--lime); color: var(--ink); }
+    .button.download:hover { background: #e0ecc1; color: var(--ink); }
     .arrow { margin-left: 12px; font-size: 16px; }
     .hero-note { display: flex; align-items: center; gap: 8px; margin-top: 34px; color: #75796f; font-size: 12px; }
     .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #82a36c; box-shadow: 0 0 0 4px #e6ecdc; }
@@ -239,7 +236,7 @@
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="index.html">ABEBE<span>.</span></a>
+    <a class="brand" href="index.html"><img src="{{root}}assets/logo.svg" alt="Abebe Bediye"></a>
     <nav class="nav-links" aria-label="{{nav.aria}}">
       <a href="projects.html">{{nav.projects}}</a>
       <a href="#om">{{nav.about}}</a>
@@ -259,6 +256,7 @@
         <div class="hero-actions">
           <a class="button" href="#prosjekter">{{home.cta.projects}} <span class="arrow">↘</span></a>
           <a class="button secondary" href="experience.html">{{home.cta.experience}}</a>
+          <a class="button download" href="{{root}}assets/Abebe-Bediye-CV.pdf" download>{{home.cta.download}} <span class="arrow">↓</span></a>
         </div>
         <div class="hero-note"><span class="status-dot"></span> {{home.note}}</div>
       </div>
@@ -273,7 +271,7 @@
     <section class="proof">
       <div class="wrap proof-inner">
         <div class="proof-label">{{home.proof.label}}</div>
-        <div class="proof-stat"><strong>7+</strong><span>{{home.proof.years}}</span></div>
+        <div class="proof-stat"><strong>9+</strong><span>{{home.proof.years}}</span></div>
         <div class="proof-stat"><strong>{{home.proof.aiCloud}}</strong><span>{{home.proof.aiCloudNote}}</span></div>
         <div class="proof-stat"><strong>Tech Lead</strong><span>{{home.proof.leadNote}}</span></div>
         <div class="proof-skills">Azure · Terraform · GitHub · Kubernetes<br>RAG · Vertex AI · TypeScript · .NET</div>

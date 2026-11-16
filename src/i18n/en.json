@@ -23,7 +23,7 @@
     },
     "experience": {
       "title": "Experience — Abebe Bediye",
-      "description": "Over seven years of experience in development, cloud architecture and DevOps at Webstep, Nordic Trustee and more."
+      "description": "Over nine years of experience in development, cloud architecture and DevOps at Webstep, Nordic Trustee and more."
     },
     "education": {
       "title": "Education — Abebe Bediye",
@@ -38,7 +38,7 @@
     "eyebrow": "Senior consultant · Oslo, Norway",
     "title": "Hi, I'm<br>Abebe <em>Bediye.</em>",
     "copy": "I build secure, scalable platforms and help teams take new technology from idea to reliable solution. Cloud, DevOps and AI — with people at the centre.",
-    "cta": { "projects": "See selected projects", "experience": "My experience" },
+    "cta": { "projects": "See selected projects", "experience": "My experience", "download": "Download CV" },
     "note": "Tech lead · Architect · Developer",
     "imageAlt": "A potato topped with a tall stack of different hats.",
     "proof": {
@@ -71,7 +71,7 @@
     "about": {
       "eyebrow": "About me",
       "title": "Technical depth.<br>A human<br>approach.",
-      "p1": "I'm a hands-on senior consultant and solution architect with <strong>over seven years of experience</strong> in software development, cloud architecture and DevOps for business-critical solutions.",
+      "p1": "I'm a hands-on senior consultant and solution architect with <strong>over nine years of experience</strong> in software development, cloud architecture and DevOps for business-critical solutions.",
       "p2": "I thrive where development, platform and new AI opportunities meet. As a technical anchor in cross-functional teams, I turn business needs into scalable architecture — and help the people around me succeed.",
       "p3": "To me, good technology isn't just about what we build, but about the solution being safe, understandable and useful in everyday life.",
       "link": "Get to know my experience"
@@ -108,7 +108,7 @@
   "exp": {
     "eyebrow": "Career · From code to technical leadership",
     "title": "Experience building<br><em>what lasts.</em>",
-    "intro": "Over seven years of experience in development, cloud architecture and DevOps for business-critical solutions. I combine hands-on development with platform ownership, technical direction and knowledge sharing.",
+    "intro": "Over nine years of experience in development, cloud architecture and DevOps for business-critical solutions. I combine hands-on development with platform ownership, technical direction and knowledge sharing.",
     "links": { "projects": "See my projects", "education": "See my education" },
     "more": "View project details",
     "webstep": { "note": "Senior consultant · September 2022 – present" },
