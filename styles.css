@@ -47,12 +47,13 @@ header {
 }
 
 .brand {
-  font: 800 17px "Manrope", sans-serif;
-  letter-spacing: -.7px;
+  display: flex;
 }
 
-.brand span {
-  color: var(--green);
+.brand img {
+  display: block;
+  width: auto;
+  height: 34px;
 }
 
 nav {

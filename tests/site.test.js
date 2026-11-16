@@ -132,6 +132,16 @@ test("shared styles are loaded by every page", () => {
   }
 });
 
+test("the logo and downloadable CV are published and linked from every language", () => {
+  for (const lang of languageCodes) {
+    assert.match(read(lang, "index.html"), /href="(?:\.\.\/)?assets\/Abebe-Bediye-CV\.pdf" download/);
+    for (const page of PAGES) {
+      assert.match(read(lang, page), /<img src="(?:\.\.\/)?assets\/logo\.svg"/, `${lang}/${page}`);
+    }
+  }
+  assert.ok(fs.statSync(path.join(outDir, "assets", "Abebe-Bediye-CV.pdf")).isFile());
+});
+
 test("the apex custom domain is published with the site", () => {
   assert.equal(fs.readFileSync(path.join(outDir, "CNAME"), "utf8").trim(), "abebediye.no");
 });
