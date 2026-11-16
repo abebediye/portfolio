@@ -23,7 +23,7 @@
     },
     "experience": {
       "title": "Erfaring — Abebe Bediye",
-      "description": "Over ni års erfaring med utvikling, skyarkitektur og DevOps hos Webstep, Nordic Trustee og flere."
+      "description": "Over åtte års erfaring med utvikling, skyarkitektur og DevOps hos Webstep, Nordic Trustee og flere."
     },
     "education": {
       "title": "Utdanning — Abebe Bediye",
@@ -71,7 +71,7 @@
     "about": {
       "eyebrow": "Om meg",
       "title": "Teknisk dybde.<br>Menneskelig<br>tilnærming.",
-      "p1": "Jeg er en hands-on seniorkonsulent og løsningsarkitekt med <strong>over ni års erfaring</strong> fra systemutvikling, skyarkitektur og DevOps for forretningskritiske løsninger.",
+      "p1": "Jeg er en hands-on seniorkonsulent og løsningsarkitekt med <strong>over åtte års erfaring</strong> fra systemutvikling, skyarkitektur og DevOps for forretningskritiske løsninger.",
       "p2": "Jeg trives i skjæringspunktet mellom utvikling, plattform og nye muligheter med AI — fra RAG, e-postagenter og GitHub-automatisering til innføring av verktøy som GitHub Copilot, Claude og Microsoft Foundry. Som teknisk anker i tverrfaglige team gjør jeg forretningsbehov om til skalerbar arkitektur — og hjelper folk rundt meg med å lykkes.",
       "p3": "For meg handler god teknologi ikke bare om hva vi bygger, men om at løsningen er trygg, forståelig og nyttig i hverdagen.",
       "link": "Bli bedre kjent med erfaringen min"
@@ -108,7 +108,7 @@
   "exp": {
     "eyebrow": "Karriere · Fra kode til teknisk ledelse",
     "title": "Erfaring med å bygge<br><em>det som varer.</em>",
-    "intro": "Over ni års erfaring med utvikling, skyarkitektur og DevOps for forretningskritiske løsninger. Jeg kombinerer praktisk utvikling med plattformansvar, teknisk retning og kunnskapsdeling.",
+    "intro": "Over åtte års erfaring med utvikling, skyarkitektur og DevOps for forretningskritiske løsninger. Jeg kombinerer praktisk utvikling med plattformansvar, teknisk retning og kunnskapsdeling.",
     "links": { "projects": "Se prosjektene mine", "education": "Se utdanningsbakgrunnen" },
     "more": "Se prosjektomtale",
     "webstep": { "note": "Seniorkonsulent · September 2022 – i dag" },
