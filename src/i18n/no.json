@@ -14,7 +14,7 @@
     "home": "Hjem"
   },
   "footer": { "contact": "Kontakt" },
-  "switch": { "label": "EN", "title": "Read this page in English" },
+  "switch": { "flag": "gb", "label": "EN", "title": "Read this page in English" },
   "common": { "back": "Til forsiden" },
   "meta": {
     "index": {

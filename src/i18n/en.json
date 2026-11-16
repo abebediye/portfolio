@@ -14,7 +14,7 @@
     "home": "Home"
   },
   "footer": { "contact": "Contact" },
-  "switch": { "label": "NO", "title": "Les denne siden på norsk" },
+  "switch": { "flag": "no", "label": "NO", "title": "Les denne siden på norsk" },
   "common": { "back": "Back to home" },
   "meta": {
     "index": {
