@@ -202,8 +202,12 @@
     }
     @media (max-width: 560px) {
       .wrap { width: calc(100% - 36px); }
-      .nav-links { gap: 12px; }
-      .nav-links a:nth-child(-n+4) { display: none; }
+      .nav { height: auto; flex-wrap: wrap; justify-content: flex-start; padding: 12px 0 10px; gap: 8px 16px; }
+      .nav-links { display: contents; }
+      .nav-links a { order: 3; flex: none; font-size: 12px; white-space: nowrap; }
+      .nav-links a.lang-switch { order: 1; margin-left: auto; margin-right: -4px; }
+      .nav-links a.nav-cta { order: 2; }
+      .nav-links a:nth-child(-n+4) { display: inline-block; }
       .nav-cta { padding: 8px 13px; font-size: 11px; white-space: nowrap; }
       .hero-actions .button { flex: 1 1 auto; justify-content: center; text-align: center; }
       .button.download { margin-left: 0; flex-basis: 100%; }
