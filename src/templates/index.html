@@ -202,9 +202,11 @@
     }
     @media (max-width: 560px) {
       .wrap { width: calc(100% - 36px); }
-      .nav-links { gap: 0; }
-      .nav-links a:first-child { display: none; }
-      .nav-cta { padding: 8px 13px; font-size: 11px; }
+      .nav-links { gap: 12px; }
+      .nav-links a:nth-child(-n+4) { display: none; }
+      .nav-cta { padding: 8px 13px; font-size: 11px; white-space: nowrap; }
+      .hero-actions .button { flex: 1 1 auto; justify-content: center; text-align: center; }
+      .button.download { margin-left: 0; flex-basis: 100%; }
       .hero { grid-template-columns: 1fr; gap: 43px; padding: 58px 0 68px; }
       .hero-copy { font-size: 14px; }
       h1 { max-width: 430px; font-size: clamp(55px, 15vw, 72px); }
